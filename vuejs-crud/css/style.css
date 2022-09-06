@@ -1,0 +1,57 @@
+html{
+    font-size: 62.5%; /*Reusar en todos los proyectos*/
+    box-sizing: border-box; /* Hack para Box Model */
+    scroll-snap-type: y mandatory;
+}
+
+*, *::before, *::after{ /* Esta clase hace que los padding no afecten a los tamaños establecidos por lo que queda fijo */
+    box-sizing: inherit;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../img/dash.png");
+    font-size: 16px; /*Reusar en todos los proyectos 1rem = 10px*/
+    font-family: 'Montserrat', sans-serif;
+    height: 80rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login {
+    width: 40rem;
+    height: min-content;
+    padding: 3rem;
+    border-radius: 1.2rem;
+    background: rgb(231, 231, 231);
+}
+
+.login h1{
+    font-size: 3rem ;
+    margin-bottom: 2.5rem;
+}
+
+.login form {
+    font-size: 1.5rem;
+}
+
+.dashName{
+    text-align: center;
+}
+
+.mpButton{
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.tableExt{
+    border-radius: 1rem;
+}
+
+
